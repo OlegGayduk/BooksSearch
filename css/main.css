@@ -1,0 +1,82 @@
+.container {
+	font-family: Arial,Sans-serif;
+	font-size:14px;
+	position: relative;
+	width:380px;
+	height:auto;
+}
+
+.books {
+	padding: 10px;
+	margin-top: 5px;
+	height:15px;
+}
+
+.books:hover {
+	cursor: pointer;
+    background: rgba(70,90,240,.1);
+    //transition: 0.2s;
+    border-radius: 5px 5px 5px 5px;
+    //visibility: visible;
+}
+
+.clean {
+	cursor: pointer;
+    position: relative;
+	width:30px;
+	height: 30px;
+	//margin-top: -47px;
+	margin-top: -23px;
+	margin-left: 340px;
+	background-image: url(../assets/spraits/Iconset.png);
+    background-size: 42px 1171px;
+    background-repeat: no-repeat;
+    background-position: -6px -185px;
+    //opacity:0.5;
+    opacity:1;
+    visibility: hidden;
+}
+
+.clean:hover {
+	//visibility: visible;
+	cursor:pointer;
+	opacity:1;
+}
+
+.books_name {
+	font-family: Arial,Sans-serif;
+	font-size: 14px;
+}
+
+.search_field {
+	outline:none;
+	border:1px Solid #fff;
+    border-bottom: 1px Solid #e3e8e6;
+    font:normal 14px Arial;
+    padding: 3px;
+    padding-left: 1px;
+    width:246px;
+}
+
+.search_field:focus {
+	border-bottom: 1px Solid rgb(68,75,125);
+    transition:border 0.1s;
+}
+
+.search_btn {
+    //background:rgb(70,90,124);
+    border-radius: 5px;
+    border:transparent;
+    cursor: pointer;
+    font:normal 13px/18px Tahoma,sans-serif,Arial,Helvetica;
+    margin:auto;
+    height:25px;
+    transition:background 0.2s;
+}
+
+.search_btn:hover {
+    //background:rgb(40,60,100);
+    //background:rgb(70,90,124);
+    background: rgba(70,90,240,.1);
+    transition:background 0.2s;
+}
